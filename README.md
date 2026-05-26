@@ -128,16 +128,20 @@ Further analysis of customers with these characteristics shows several additiona
 ## 💡 Business recommendation
 
 1. Develop retention programs for long-tenure customers, since many churned customers are long-term customers who may feel undervalued despite their long relationship with the bank.
+
 Example:
-  - Loyalty rewards
-  - Reduced banking fees
-  - Exclusive financial products
+
+   - Loyalty rewards
+   - Reduced banking fees
+   - Exclusive financial products
+    
 2. Improve customer engagement and membership benefits, since many churned customers are inactive members despite having long tenure and existing banking products.
-  - Reward Active Membership(ex: Cashback for frequent transactions, Lower transfer/admin fees)
-  - Re-engagement Campaigns(ex: Email or SMS reminders, "We miss you" promotions)
-  - Personalized Financial Recommendations(ex: High-balance customer suggest for
-  - investment or savings products, Salary account holder suggest for loan recommendations)
-  - Activity-Based Incentives(ex: Make 10 transactions can get cashback, Maintain active account usage get fee discount)
+   - Reward Active Membership(ex: Cashback for frequent transactions, Lower transfer/admin fees)
+   - Re-engagement Campaigns(ex: Email or SMS reminders, "We miss you" promotions)
+   - Personalized Financial Recommendations(ex: High-balance customer suggest for
+   - investment or savings products, Salary account holder suggest for loan recommendations)
+   - Activity-Based Incentives(ex: Make 10 transactions can get cashback, Maintain active account usage get fee discount)
+    
 
 3. Prioritize churn prevention strategies in Germany, where customer churn is highest, particularly among high-risk customer segments.
 
