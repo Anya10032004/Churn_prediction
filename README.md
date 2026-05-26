@@ -129,11 +129,11 @@ Further analysis of customers with these characteristics shows several additiona
 
 1. Develop retention programs for long-tenure customers, since many churned customers are long-term customers who may feel undervalued despite their long relationship with the bank.
 
-Example:
+  Example:
 
-   - Loyalty rewards
-   - Reduced banking fees
-   - Exclusive financial products
+     - Loyalty rewards
+     - Reduced banking fees
+     - Exclusive financial products
     
 2. Improve customer engagement and membership benefits, since many churned customers are inactive members despite having long tenure and existing banking products.
    - Reward Active Membership(ex: Cashback for frequent transactions, Lower transfer/admin fees)
