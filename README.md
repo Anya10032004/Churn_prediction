@@ -49,14 +49,20 @@ The dataset contains customer-related information from a banking company. Severa
       
 ## 📊 Key Features / Analysis
 
-- Analyze the profit distribution across provinces in Indonesia
-- Identify the top 10 branches with the highest number of transactions in each province in Indonesia
-- Determine the top 10 cities based on average profit per transaction
-- Identify the top 5 branches with the highest branch ratings but the lowest transaction ratings
-- Determine the top 5 most profitable products
-- Analyze annual revenue trends
-- Identify the top 10 provinces with the highest net sales
-
+- Analyze customer churn distribution between churned and non-churned customers
+- Identify the age groups with the highest customer churn rates
+- Analyze customer account balance distributions between churned and non-churned customers
+- Determine the relationship between gender and customer churn behavior
+- Identify the country with the highest customer churn rate
+- Analyze customer tenure patterns between churned and non-churned customers
+- Identify the relationship between the number of banking products and customer churn
+- Analyze credit card ownership patterns among churned customers
+- Analyze active membership status and its relationship to customer churn
+- Analyze estimated salary distributions for churned customers
+- Analyze customer credit score patterns of the churn customer
+- Compare machine learning model performance using Accuracy, Recall, and ROC-AUC metrics
+- Identify the best-performing machine learning model for customer churn prediction
+- Generate business insights and customer retention strategies based on churn analysis
 
 ## 🔍 Business insights
 Final Insights
