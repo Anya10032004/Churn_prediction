@@ -1,7 +1,7 @@
 # Churn_prediction
 
 ## 📌 Project Description
-This project focuses on predicting customer churn using machine learning techniques in the banking industry. The goal is to analyze customer behavior and identify which customers are likely to leave the bank. The project includes data preprocessing, exploratory data analysis, machine learning model development, and business recommendation generation.
+This project focuses on predicting customer churn using machine learning techniques in the banking industry. The goal is to analyze customer behavior and identify which customers are likely to leave the bank. The project includes data preprocessing, exploratory data analysis, machine learning model development, and business recommendation insights.
 
 ## 🎯 Objectives
 The main objectives of this project are:
