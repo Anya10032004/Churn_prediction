@@ -9,7 +9,7 @@ The main objectives of this project are:
 - Analyze customer behavior patterns related to churn.
 - Compare multiple machine learning algorithms to find the best-performing model.
 - Identify important factors influencing customer churn.
-- Provide business recommendations to improve customer retention and customer experience.
+- Provide business recommendations to improve customer retention and customer engagement.
 
 ## 🗂️ Dataset Information
 
