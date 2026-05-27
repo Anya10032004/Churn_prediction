@@ -41,7 +41,7 @@ The dataset contains customer-related information from a banking company. Severa
  4. Feature engineering
  5. Data preparation and Data pipeline
  6. Prepare the Machine Learning models
- 7. Conclution:
+ 7. Conclusion:
     - Finale insights
     - Better model explanation
     - Business Insights
@@ -105,21 +105,13 @@ Further analysis of customers with these characteristics shows several additiona
 
 ## 📂 Repository Structure
 ```
-├── SQL/
 
-| └── analysis_query.sql
+├── ChurnPredcitionCode
 
-├── Dataset/
-
-| └── Analysis_table(sample_10_rows)
-
-├── Dashboard/
-
-| └── Finale_project_rankamin (1)
-
-| └── Link to the dashboard in google studio.txt
+├── Dataset.csv
 
 ├── README.md
+
 
 ```
 
