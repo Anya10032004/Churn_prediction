@@ -34,7 +34,17 @@ The dataset contains customer-related information from a banking company. Severa
  - 📊 Matplotlib
  - 🤖 Scikit-learn (sklearn)
 
-
+## 🔄 Project Workflow
+ 1. Import datasets into Google Colab
+ 2. Data review and cleaning
+ 3. Exploratory Data Analysis (EDA)
+ 4. Feature engineering
+ 5. Data preparation and Data pipeline
+ 6. Prepare the Machine Learning models
+ 7. Condlution:
+    - Finale insights
+    - Better model explanation
+    - Business Insights
 
       
 ## 📊 Key Features / Analysis
