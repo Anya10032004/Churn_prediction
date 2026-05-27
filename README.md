@@ -1,80 +1,30 @@
 # Churn_prediction
 
 ## 📌 Project Description
-This project analyzes the business performance of Kimia Farma from 2020 to 2023 using BigQuery and Google Looker Studio. The goal is to transform raw data into meaningful insights such as sales trends, branch performance, and customer ratings. The data is processed using SQL in BigQuery and visualized through an interactive dashboard.
+This project focuses on predicting customer churn using machine learning techniques in the banking industry. The goal is to analyze customer behavior and identify which customers are likely to leave the bank. The project includes data preprocessing, exploratory data analysis, machine learning model development, and business recommendation generation.
 
 ## 🎯 Objectives
-- Analyze revenue performance trends from 2020 to 2023 to understand overall business stability and growth patterns.
-- Identify top-performing provinces and branches based on revenue, profit, and transaction volume.
-- Detect high-profit but low-sales products (underrated products) that have strong margins but low transaction frequency.
-- Evaluate profit contribution by province to determine which regions generate the highest business value.
-- Analyze city-level performance within each province by calculating the average profit per transaction.
-- Identify underrated branches—branches with high customer ratings but relatively low transaction volumes—and explore possible causes.
-- Examine profit and sales distribution patterns across regions, branches, and products to uncover key business insights.
-- Generate data-driven business insights to support strategic decision-making and performance improvement.
-- Provide actionable business recommendations to increase revenue, improve transaction volume, and optimize product and branch performance.
+The main objectives of this project are:
+- Predict whether a customer will churn or stay using machine learning models.
+- Analyze customer behavior patterns related to churn.
+- Compare multiple machine learning algorithms to find the best-performing model.
+- Identify important factors influencing customer churn.
+- Provide business recommendations to improve customer retention and customer experience.
 
 ## 🗂️ Dataset Information
 
-The analysis_table column information:
-  - transaction_id: transaction ID
-  - date: transaction date
-  - branch_id: Kimia Farma branch ID
-  - branch_name: branch name
-  - kota (city): city where the branch is located
-  - provinsi (province): province where the branch is located
-  - rating_cabang (branch_rating): customer rating of the branch
-  - customer_name: name of the customer who made the transaction
-  - product_id: product ID
-  - product_name: product (medicine) name
-  - actual_price: product price
-  - discount_percentage: discount percentage applied to the product
-  - persentase_gross_laba (gross profit percentage)
+The dataset contains customer-related information from a banking company. Several important features are used to analyze customer churn behavior, including:
+ - Tenure → How long the customer has stayed with the bank
+ - Credit Score → Customer financial credibility
+ - Balance → Customer account balance
+ - Number of Products → Total bank products owned
+ - Credit Card Ownership → Whether the customer owns a credit card
+ - Active Membership → Whether the customer actively uses membership services
+ - Estimated Salary → Customer estimated income
+ - Gender → Used for comparison analysis between male and female customers
+ - Churn Status → Target variable indicating whether the customer leaves the bank or not
     
-     -- Price ≤ Rp 50,000 → 10%
-    
-     -- Rp 50,000 < Price ≤ Rp 100,000 → 15%
-    
-     -- Rp 100,000 < Price ≤ Rp 300,000 → 20%
-    
-     -- Rp 300,000 < Price ≤ Rp 500,000 → 25%
-    
-     -- Price > Rp 500,000 → 30%
-    
-  - nett_sales: price after discount (net sales / revenue after discount
-     - nett_profit: net profit earned by Kimia Farma
-       
-  - rating_transaksi (transaction_rating): customer rating of the transaction
-
-The analysis_table table is actually made by merging 4 datasets
-
-1. kf_final_transaction.csv
-     - transaction_id: transaction ID
-     - product_id: product ID (medicine)
-     - branch_id: Kimia Farma branch ID
-     - customer_name: name of the customer who made the transaction
-     - date: transaction date
-     - price: product price
-     - discount_percentage: percentage of discount applied to the product
-     - rating: customer rating for the transaction
-2. kf_product.csv
-     - product_id: product ID (medicine)
-     - product_name: product name (medicine)
-     - product_category: product category (medicine)
-     - price: product price
-3. kf_inventory.csv
-    - inventory_ID: inventory ID for the medicine product
-    - branch_id: Kimia Farma branch ID
-    - product_id: product ID (medicine)
-    - product_name: product name (medicine)
-    - opname_stock: total stock of the product
-6. kf_kantor_cabang.csv
-    - branch_id: Kimia Farma branch ID
-    - branch_category: branch category
-    - branch_name: branch office name
-    - kota: city of the branch
-    - provinsi: province of the branch
-    - rating: customer rating for the branch
+   
 
 ## ⚙️ Tools & Technologies
  - Google BigQuery (SQL)
