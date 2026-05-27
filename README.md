@@ -49,7 +49,7 @@ The dataset contains customer-related information from a banking company. Severa
       
 ## 📊 Key Features / Analysis
 
-- Analyze customer churn distribution between churned and non-churned customers
+- Analyze customer churn distribution
 - Identify the age groups with the highest customer churn rates
 - Analyze customer account balance distributions between churned and non-churned customers
 - Determine the relationship between gender and customer churn behavior
