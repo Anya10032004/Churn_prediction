@@ -41,7 +41,7 @@ The dataset contains customer-related information from a banking company. Severa
  4. Feature engineering
  5. Data preparation and Data pipeline
  6. Prepare the Machine Learning models
- 7. Condlution:
+ 7. Conclution:
     - Finale insights
     - Better model explanation
     - Business Insights
