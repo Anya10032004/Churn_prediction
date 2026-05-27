@@ -14,15 +14,18 @@ The main objectives of this project are:
 ## 🗂️ Dataset Information
 
 The dataset contains customer-related information from a banking company. Several important features are used to analyze customer churn behavior, including:
- - Tenure → How long the customer has stayed with the bank
- - Credit Score → Customer financial credibility
- - Balance → Customer account balance
- - Number of Products → Total bank products owned
- - Credit Card Ownership → Whether the customer owns a credit card
- - Active Membership → Whether the customer actively uses membership services
- - Estimated Salary → Customer estimated income
- - Gender → Used for comparison analysis between male and female customers
- - Churn Status → Target variable indicating whether the customer leaves the bank or not
+ - customer_id -->	Unique ID assigned to each customer
+ - credit_score --> 	Customer credit score that reflects financial credibility
+ - country	--> Country where the customer is located (e.g., France, Spain, Germany)
+ - gender	--> Customer gender (Male/Female)
+ - age	--> Customer age
+ - tenure --> 	Number of years the customer has stayed with the bank
+ - balance	--> Customer bank account balance
+ - products_number	--> Number of bank products used by the customer
+ - credit_card	--> Whether the customer owns a credit card (1 = Yes, 0 = No)
+ - active_member --> 	Whether the customer is an active bank member (1 = Active, 0 = Not Active)
+ - estimated_salary	--> Estimated customer salary/income
+ - churn --> 	Target variable indicating whether the customer left the bank (1 = Churn, 0 = Stay)
     
    
 
