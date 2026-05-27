@@ -27,21 +27,16 @@ The dataset contains customer-related information from a banking company. Severa
  - estimated_salary	--> Estimated customer salary/income
  - churn --> 	Target variable indicating whether the customer left the bank (1 = Churn, 0 = Stay)
     
-   
-
 ## ⚙️ Tools & Technologies
- - Google BigQuery (SQL)
- - Google Cloud Platform (GCP)
- - Google Looker Studio
- - GitHub
+ - 💻 Google Colab
+ - 🐍 Python
+ - 🐼 Pandas
+ - 📊 Matplotlib
+ - 🤖 Scikit-learn (sklearn)
 
-## 🔄 Project Workflow
- 1. Import datasets into BigQuery
- 2. Clean and transform data
- 3. Create an analysis table by joining
- 4. Calculate metrics (nett sales, profit, etc.)
- 5. Build a dashboard in Looker Studio
 
+
+      
 ## 📊 Key Features / Analysis
 
 - Analyze the profit distribution across provinces in Indonesia
