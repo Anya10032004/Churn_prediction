@@ -57,10 +57,6 @@ The dataset contains customer-related information from a banking company. Severa
 - Analyze annual revenue trends
 - Identify the top 10 provinces with the highest net sales
 
-## 📈 Dashboard
-
-🔗 Dashboard Link: 
-https://datastudio.google.com/reporting/8dc7a40e-a571-4f57-99bf-5d41f31f8cb2/page/oYLwF
 
 ## 🔍 Business insights
 Final Insights
@@ -114,8 +110,3 @@ Further analysis of customers with these characteristics shows several additiona
 
 
 ```
-
-## Additional Links
- - 📂 GitHub Repository: https://github.com/Anya10032004/Rankamin_finale_project
- - 📄 Presentation (PPT): https://docs.google.com/presentation/d/1xc19aI7Nb05oyQ8OTsxjSikXMAus8RmPXcZe8Ob7sQI/edit?usp=sharing
- - 🎥 Video Explanation: https://youtu.be/U92kj4zlHn0
