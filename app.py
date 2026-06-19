@@ -138,16 +138,10 @@ fig = px.bar(
 st.plotly_chart(fig)
 
 # TO DO LIST 20/06/26:
-#  1. Udah bisa yey, sekarang kita deploy
-#     a. We cannot put the "finale_model (2).pkl" ke github karena ukurannya lebih dari 25MB --> DONE
-#     b. We hace deploy the app using streamlit, but we encaunter an error:
-        #  ModuleNotFoundError: This app has encountered an error. The original error message is redacted to prevent data leaks. Full error details have been recorded in the logs (if you're on Streamlit Cloud, click on 'Manage app' in the lower right of your app).
-        # Traceback:
-        # File "/mount/src/churn_prediction/app.py", line 3, in <module>
-        # from sklearn.base import BaseEstimator, TransformerMixin
-        # Detail error di bawah AA
-        # Untuk memperbaiki nya, terdapat chatbox chatgpt bernama "Open ZIP in Python"
-        # Intinya solusi nya adalah buat file "requirements.txt"
+# DEPLOY BERHASIL YEYY
+# Tinggal membernarkan si readme github
+#   1. notebook collab nya kita ganti karena gak bisa dibuka
+#   2. add penjelaskan tentang kualitas model supaya lebih detail di github
 
 
 #  Comand to lihat app: streamlit run app.py
