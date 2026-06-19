@@ -105,10 +105,23 @@ Further analysis of customers with these characteristics shows several additiona
 3. Prioritize churn prevention strategies in Germany, where customer churn is highest, particularly among high-risk customer segments.
 
 ## 🚀 Running the Streamlit App
-# 1. Clone the Repository
-# 2. Create a Virtual Environment (Optional but Recommended)
-# 3. Install Required Packages
-# 4. Run the Streamlit App
+### 1. Clone the Repository
+### 2. Create a Virtual Environment (Optional but Recommended)
+ - Windows:
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+ - macOS/Linux:
+   ```
+   python -m venv venv
+   source venv/bin/activate
+   ```
+### 3. Install Required Packages
+```
+pip install -r requirements.txt
+```
+### 4. Run the Streamlit App
 ```
 streamlit run app.py
 ```
