@@ -137,7 +137,7 @@ fig = px.bar(
     )
 st.plotly_chart(fig)
 
-# TO DO LIST 17/06/26:
+# TO DO LIST 20/06/26:
 #  1. Udah bisa yey, sekarang kita deploy
 #     a. We cannot put the "finale_model (2).pkl" ke github karena ukurannya lebih dari 25MB --> DONE
 #     b. We hace deploy the app using streamlit, but we encaunter an error:
