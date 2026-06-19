@@ -104,14 +104,34 @@ Further analysis of customers with these characteristics shows several additiona
 
 3. Prioritize churn prevention strategies in Germany, where customer churn is highest, particularly among high-risk customer segments.
 
+## 🚀 Running the Streamlit App
+# 1. Clone the Repository
+# 2. Create a Virtual Environment (Optional but Recommended)
+# 3. Install Required Packages
+# 4. Run the Streamlit App
+```
+streamlit run app.py
+```
+After running the command, Streamlit will provide a local URL similar to:
+
+Local URL: http://localhost:8501
+
+Open the URL in your browser to use the application.
+
 ## 📂 Repository Structure
 ```
 
 ├── ChurnPredcitionCode
-
 ├── Dataset.csv
-
 ├── README.md
-
-
+├── app.py
+├── feature_importance.xlsx
+├── final_model (2).zip
+├── mean (1).pkl
+├── requirements.txt
+├── std (1).pkl
 ```
+
+
+## Additional Links
+- The link to the streamlit app: https://churnprediction-anyaapp.streamlit.app/
