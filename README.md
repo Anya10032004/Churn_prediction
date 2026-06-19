@@ -106,22 +106,33 @@ Further analysis of customers with these characteristics shows several additiona
 
 ## 🚀 Running the Streamlit App
 ### 1. Clone the Repository
+Open Command Prompt, PowerShell, or Terminal, then run:
+```
+git clone https://github.com/yourusername/Churn_prediction.git
+cd Churn_prediction
+```
+This downloads the repository from GitHub and moves into the project folder.
 ### 2. Create a Virtual Environment (Optional but Recommended)
+Run the following commands in the same Command Prompt, PowerShell, or Terminal window.
  - Windows:
    ```
    python -m venv venv
-   venv\Scripts\activate
+   .\venv\Scripts\Activate.ps1
    ```
  - macOS/Linux:
    ```
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate
    ```
+This creates an isolated Python environment for the project.
 ### 3. Install Required Packages
+While still inside the project folder, run:
 ```
 pip install -r requirements.txt
 ```
+This installs all required libraries listed in requirements.txt.
 ### 4. Run the Streamlit App
+In the same Command Prompt, PowerShell, or Terminal window, run:
 ```
 streamlit run app.py
 ```
