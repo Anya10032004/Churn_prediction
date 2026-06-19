@@ -6,7 +6,7 @@ import joblib
 import plotly.express as px
 import openpyxl
 import streamlit as st
-
+import zipfile
 # Preprocess class for data transformation
 class Preprocess(BaseEstimator, TransformerMixin):
 
@@ -48,7 +48,9 @@ class Preprocess(BaseEstimator, TransformerMixin):
 st.set_page_config(layout="wide")
 
 # Load model
-model = joblib.load('final_model (2).pkl')
+with zipfile.ZipFile("final_model (2).zip", "r") as model_exctract:
+   with model_exctract.open('final_model (2).pkl') as file:
+      model = joblib.load(file)
 mean = joblib.load('mean (1).pkl')
 std = joblib.load('std (1).pkl')
 
