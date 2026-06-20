@@ -65,7 +65,7 @@ The dataset contains customer-related information from a banking company. Severa
 - Identify the best-performing machine learning model for customer churn prediction
 - Generate business insights and customer retention strategies based on churn analysis
 
-## 🔍 Business insights
+## 🔍 Business insights and Model explanation
 Final Insights
 
 Around 79.6% of customers remain with the bank, while 20.4% have churned. Customer churn is strongly influenced by age, with customers between 38–51 years old showing the highest churn rate. Customers in this age group also tend to have higher account balances compared to non-churn customers, particularly within the balance range of 38,340.02–131,433.33. In terms of gender, female customers are more likely to churn than male customers.
@@ -85,6 +85,18 @@ Further analysis of customers with these characteristics shows several additiona
 - Most churned customers already have a credit card. Although churned customers tend to stay longer with the bank, many of them are not active members.
 - Churned customers generally have lower estimated salaries compared to non-churned customers.
 - Churned customers also tend to have lower credit scores than non-churned customers, indicating a higher financial risk and a greater possibility of delayed loan repayments.
+
+Best Model: Random Forest
+
+Based on the evaluation results, Random Forest demonstrates the best overall performance among the three models. It achieves the highest accuracy (83%), compared to Decision Tree (77%) and Logistic Regression (70%). In addition, Random Forest obtains the highest F1-score for the churn class (0.59), indicating a better balance between precision and recall when identifying churn customers.
+
+Although both Random Forest and Logistic Regression achieve the same recall (0.62) for the churn class, Random Forest produces a substantially higher precision (0.56 vs. 0.35). This means that Random Forest generates fewer false positive churn predictions while still detecting the same proportion of actual churn customers.
+
+| Model               | Precision (Churn=1) | Recall (Churn=1) | F1-score (Churn=1) | Accuracy |
+| ------------------- | ------------------- | ---------------- | ------------------ | -------- |
+| Logistic Regression | 0.35                | 0.62             | 0.45               | 0.70     |
+| Decision Tree       | 0.44                | 0.58             | 0.50               | 0.77     |
+| Random Forest       | **0.56**            | **0.62**         | **0.59**           | **0.83** |
 
 ## 💡 Business recommendation
 
