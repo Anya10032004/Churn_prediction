@@ -118,14 +118,18 @@ Although both Random Forest and Logistic Regression achieve the same recall (0.6
 3. Prioritize churn prevention strategies in Germany, where customer churn is highest, particularly among high-risk customer segments.
 
 ## 🚀 Running the Streamlit App
-### 1. Clone the Repository
+### Step 1: Clone the Repository
 Open Command Prompt, PowerShell, or Terminal, then run:
 ```
 git clone https://github.com/yourusername/Churn_prediction.git
-cd Churn_prediction
 ```
 This downloads the repository from GitHub and moves into the project folder.
-### 2. Create a Virtual Environment (Optional but Recommended)
+After that
+```
+cd Churn_prediction
+```
+
+### Step 2: Create a Virtual Environment (Optional but Recommended)
 Run the following commands in the same Command Prompt, PowerShell, or Terminal window.
  - Windows:
    ```
@@ -138,13 +142,13 @@ Run the following commands in the same Command Prompt, PowerShell, or Terminal w
    source venv/bin/activate
    ```
 This creates an isolated Python environment for the project.
-### 3. Install Required Packages
+### Step 3: Install Required Packages
 While still inside the project folder, run:
 ```
 pip install -r requirements.txt
 ```
 This installs all required libraries listed in requirements.txt.
-### 4. Run the Streamlit App
+### Step 4: Run the Streamlit App
 In the same Command Prompt, PowerShell, or Terminal window, run:
 ```
 streamlit run app.py
